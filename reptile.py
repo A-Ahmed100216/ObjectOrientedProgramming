@@ -11,7 +11,7 @@ class Reptile(Animal):
     def __init__(self):
         # the super key word is used to inherit everything from the parent class.
         super().__init__()
-        self.cold_blooded = True
+        self.cold_blooded = bool
         self.tetrapod = True
         self.heart_chambers = [3,4]
         self.amniotic_eggs = False
@@ -29,9 +29,9 @@ class Reptile(Animal):
         return "Scent of Love"
 
 
-# Create an object - instantaite the Reptile class
-lizard=Reptile()
-print(lizard.eat() + " (This functionlity is inherited from the Parent class.)") # Inherits this from the Animal class
-
-
-print(lizard.use_venom()) # Inherits this from the Reptile class.
+# # Create an object - instantaite the Reptile class
+# lizard=Reptile()
+# print(lizard.eat() + " (This functionlity is inherited from the Parent class.)") # Inherits this from the Animal class
+# print(lizard.cold_blooded)
+#
+# print(lizard.use_venom()) # Inherits this from the Reptile class.
