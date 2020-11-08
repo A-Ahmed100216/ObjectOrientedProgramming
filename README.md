@@ -6,7 +6,10 @@
 
 # Example 1
 ### 1. Create an animal class
-This will be the parent class
+* This will be the parent class.
+* It is initialised using the ```__init__``` method and several attributes created.
+* Behaviours of this class are created as functions. 
+* The class is then instantiated 
 ```python
 class Animal:
 
@@ -31,11 +34,11 @@ class Animal:
     def procreate(self):
         return "Find a partner"
 
-# # Instantiate our class i.e create an object
-# cat=Animal()
-# # Cat as a child of Animal, inherits behaviours and attributes.
-# # Abstracted the eat method from out parent class
-# print(cat.eat())
+# Instantiate our class i.e create an object
+ cat=Animal()
+# Cat as a child of Animal, inherits behaviours and attributes.
+# Abstracted the eat method from out parent class
+print(cat.eat())
 ```
 
 
