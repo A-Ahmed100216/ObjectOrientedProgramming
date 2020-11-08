@@ -2,7 +2,7 @@
 
 # We will need to first import the Animal class
 # The syntax is basic from <file_name> import <class_name>
-from animal import Animal
+from example1.animal import Animal
 
 # This will be a child class so we pass the Parent class in the arguments. This immediately tells us that Reptile is a child class of Animal.
 class Reptile(Animal):

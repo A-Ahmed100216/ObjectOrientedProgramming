@@ -1,6 +1,6 @@
 # Creating a Snake class. This is a child class of the Reptile class.
 # Once again, we must import the parent class
-from reptile import Reptile
+from example1.reptile import Reptile
 class Snake(Reptile):
 
     # Let's initialise the class

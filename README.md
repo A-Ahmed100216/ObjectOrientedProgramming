@@ -48,7 +48,7 @@ print(cat.eat())
 * First we import the class, the syntax is simply ```from <file_name> import <class_name>```
 * When creating the class, we pass the Parent class in the arguments. This immediately tells us that Reptile is a child class of Animal.
 ```python
-from animal import Animal
+from example1.animal import Animal
 
 class Reptile(Animal):
 ```
@@ -83,7 +83,7 @@ class Reptile(Animal):
 * This is followed by initialisation wherein we define attributes.
 * Subsequently, functions can be defined.
 ```python
-from reptile import Reptile
+from example1.reptile import Reptile
 class Snake(Reptile):
 
     # Let's initialise the class
@@ -103,7 +103,7 @@ class Snake(Reptile):
 * This will be a child class of the Snake class 
 * The process is the same: import parent, initialise, inherit, attributes, and functions. 
 ```python
-from snake import Snake
+from example1.snake import Snake
 class Python(Snake):
 
     # Initialise the class
