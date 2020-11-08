@@ -1,11 +1,7 @@
-#Getters and setters
-# Why - Use cases?
-# To hide the data - separation of concern
-# 2 functions - one to get information and one to set information
-# syntax
+# Getters and setters
 
+# EXAMPLE 1
 # create a class called student
-
 # class Student:
 #
 #     def __init__(self,name,company):
@@ -21,8 +17,7 @@
 # student_object=Student("Mina","Sparta")
 # print("Student name is" + student_object.setStudent())
 
-# Iteration 2 -
-
+# EXAMPLE 2
 class Student:
 
     def __init__(self, name, company):
@@ -30,7 +25,7 @@ class Student:
         self.company = company
 
 
-    # @property This is a decorator in python which is a callable python object that is used to modify a function or class
+    # @property This is a decorator - a callable python object that is used to modify a function or class
     @property
     def Student(self, value):
         print("This is setter method in student data")

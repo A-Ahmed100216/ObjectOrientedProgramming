@@ -1,4 +1,5 @@
-# Uusing __name__ and __main__
+# Using __name__ and __main__
+# MODE 1
 
 print("this is mode 1 --> " + __name__)
 #  This print statement will return this is mode 1 --> __main__
